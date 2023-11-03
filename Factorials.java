@@ -13,7 +13,7 @@ class Factorials {
 		System.out.print("Enter an integer to calculate its factorial:");
 		int n=sc.nextInt();
 		int res=f(n);//withargandreturn
-		System.out.print(res);
+		System.out.print("Factorial of"+n+":"+res);
 		
   
 	}
