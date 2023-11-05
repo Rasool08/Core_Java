@@ -23,8 +23,9 @@ class Dupstr {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+	System.out.println("Enter a string:");
         String s = in.next();  // Read a string from the user
-	System.out.println(Enter a string:);
+	
         // Call the permutation method with the input string and an empty initial answer
         permutation(s, "");  // Function with two arguments without return
     }
